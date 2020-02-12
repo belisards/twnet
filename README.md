@@ -1,5 +1,7 @@
 # Soluções para levantar informações sobre bots e ações coordenadas no Twitter
 
+Levantamento de soluções a partir de um estudo de caso.
+
 ## Coleta de dados
 
 ### [Twint Splunk](https://github.com/twintproject/twint-splunk/blob/master/README.md)
@@ -29,3 +31,8 @@ A coluna com o nome dos usuários pode ser extraída para um arquivo com o segui
 
 ### [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 Pode receber o arquivo `users.csv` e gerar relatórios detalhados com informações sobre as atividades dos usuários.
+
+## References
+[Bellingcat - Twitter Analysis: Identifying A Pro-Indonesian Propaganda Bot Network](https://www.bellingcat.com/news/2019/09/03/twitter-analysis-identifying-a-pro-indonesian-propaganda-bot-network/)
+
+[Don’t @ Me: Hunting Twitter Bots at Scale](https://duo.com/blog/dont-me-hunting-twitter-bots-at-scale)
