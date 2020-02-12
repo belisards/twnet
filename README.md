@@ -3,7 +3,12 @@
 ## Coleta de dados
 
 ### [Twint Splunk](https://github.com/twintproject/twint-splunk/blob/master/README.md)
-Versão dockerizada do Twint com a funcionalidade de "resume" para os downloads
+Versão dockerizada do Twint com a funcionalidade de "resume" para os downloads. 
+
+Arquivo de exemplo em .zip executado com o comando:
+
+` ./twint -s @camposmello --since 2020-02-12 -o camposmello --csv`
+
 
 ### [BotSlayer](https://osome.iuni.iu.edu/tools/botslayer/)
 BotSlayer ajuda a rastrear e detectar potencial manipulação de informação no Twitter. Fornece um dashboard dockerizado e exporta os resultados em CSV (arquivo de exemplo em anexo) com as entidades ("Entities are pieces of information that appear in tweets and retweets matching the query. An entity can be a hashtag, link, image, video, user handle, or text phrase") e os seguintes parâmetros:
