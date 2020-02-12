@@ -23,3 +23,9 @@ BotSlayer ajuda a rastrear e detectar potencial manipulação de informação no
 
 * Botness: Average bot score across tweets that match the query and contain this entity in the last four hours.
 
+A coluna com o nome dos usuários pode ser extraída para um arquivo com o seguinte comando no terminal.
+
+`cat arquivo.csv | cut -d ',' -f4 | grep @ > users.csv`
+
+### [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
+Pode receber o arquivo `users.csv` e gerar relatórios detalhados com informações sobre as atividades dos usuários.
