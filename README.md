@@ -1,6 +1,6 @@
 # Soluções para levantar informações sobre bots e ações coordenadas no Twitter
 
-Levantamento de soluções a partir de um estudo de caso.
+Levantamento de soluções a partir de um estudo de caso com as ofensas dirigidas à jornalista Patrícia Campos Mello, no dia 12 de fevereiro de 2019.
 
 ## Coleta de dados
 
