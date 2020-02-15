@@ -32,6 +32,8 @@ A coluna com o nome dos usuários pode ser extraída para um arquivo com o segui
 ### [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 Pode receber o arquivo `users.csv` e gerar relatórios detalhados com informações sobre as atividades dos usuários.
 
+## Análise dos dados
+
 ### Busca por imagens
 Localizados na pasta "img_hashs" deste repositório. São scripts para investigar a propagação de imagens no Twitter.
 
