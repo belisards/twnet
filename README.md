@@ -1,6 +1,6 @@
-# Soluções para levantar informações sobre bots e ações coordenadas no Twitter
+# Toolkir para investigar bots e ações coordenadas no Twitter
 
-Levantamento de soluções a partir de um estudo de caso com as ofensas dirigidas à jornalista Patrícia Campos Mello, no dia 12 de fevereiro de 2019.
+Levantamento de soluções a partir de um estudo de caso com as ofensas dirigidas à jornalista Patrícia Campos Mello, no dia 12 de fevereiro de 2019. Estudo/trabalho em progresso.
 
 ## Coleta de dados
 
@@ -31,6 +31,14 @@ A coluna com o nome dos usuários pode ser extraída para um arquivo com o segui
 
 ### [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 Pode receber o arquivo `users.csv` e gerar relatórios detalhados com informações sobre as atividades dos usuários.
+
+### Busca por imagens
+Localizados na pasta "img_hashs" deste repositório. São scripts para investigar a propagação de imagens no Twitter.
+
+* O primeiro gera uma hash para cada URLs de mídia (fotos), a fim de identificar imagens idênticas que possuem URL diferentes.
+
+* O segundo script busca as hashs mais "famosas" no dataset e busca a primeira mensagem que compartilhou a imagem correspondente.
+
 
 ## References
 [Bellingcat - Twitter Analysis: Identifying A Pro-Indonesian Propaganda Bot Network](https://www.bellingcat.com/news/2019/09/03/twitter-analysis-identifying-a-pro-indonesian-propaganda-bot-network/)
