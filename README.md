@@ -1,4 +1,4 @@
-# Toolkir para investigar bots e ações coordenadas no Twitter
+# Toolkit para investigar bots e ações coordenadas no Twitter
 
 Levantamento de soluções a partir de um estudo de caso com as ofensas dirigidas à jornalista Patrícia Campos Mello, no dia 12 de fevereiro de 2019. Estudo/trabalho em progresso.
 
