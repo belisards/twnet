@@ -13,17 +13,7 @@ Arquivo de exemplo em .zip executado com o comando:
 
 
 ### [BotSlayer](https://osome.iuni.iu.edu/tools/botslayer/)
-BotSlayer ajuda a rastrear e detectar potencial manipulação de informação no Twitter. Fornece um dashboard dockerizado e exporta os resultados em CSV (arquivo de exemplo em anexo) com as entidades ("Entities are pieces of information that appear in tweets and retweets matching the query. An entity can be a hashtag, link, image, video, user handle, or text phrase") e os seguintes parâmetros:
-
-* BS Level: Anomaly score that combines tweets, accounts, trendiness, and botness. The higher the BS level of an entity, the higher the estimated likelihood that the entity may be supported by a coordinated campaign involving social bots.
-
-* Tweets: Number of tweets and retweets that match the query and contain this entity in the last four hours;
-
-* Accounts: Number of distinct accounts tweeting messages that match the query and contain this entity in the last four hours.
-
-* Trendiness: Relative change in the number of tweets that match the query and contain this entity in the last four hours, compared to the previous four hours.
-
-* Botness: Average bot score across tweets that match the query and contain this entity in the last four hours.
+BotSlayer ajuda a rastrear e detectar potencial manipulação de informação no Twitter. Fornece um dashboard dockerizado e exporta os resultados em CSV (arquivo de exemplo em anexo) com as entidades. Confira aqui um [tutorial sobre a ferramenta.](https://escoladedados.org/tutoriais/veja-como-monitorar-em-tempo-real-ataques-coordenados-no-twitter)
 
 A coluna com o nome dos usuários pode ser extraída para um arquivo com o seguinte comando no terminal.
 
